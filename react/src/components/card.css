@@ -1,0 +1,91 @@
+.card{
+    position: relative;
+    margin:40px 40px 9px 8px;
+    height: 350px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 13px;
+    box-shadow: 0px 0px 5px black;
+    background-color: white;
+    flex-shrink: 0;
+    padding-bottom: 15px;
+}
+.bg-img{
+    height: 40%;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    background-size: cover;
+}
+.card .tools{
+    position: absolute;
+    left: 77%;
+    top:3%;
+    width:65px
+}
+.card .tools button{
+    background:none;
+    border:none;
+    background-color: rgba(239,239,239,0.5);
+    border-radius: 50%;
+    font-size: 16px;
+    margin:0 3px
+}
+.card .tools button:hover{
+    cursor: pointer;
+    background-color: rgba(203, 203, 203, 0.7);
+
+}
+.card .hideTools{
+    display:none;
+    background:none;
+    border:none;
+}
+
+.card-title{
+    margin-top: 3px;
+    padding-top:5px;
+    font-size: 31px;
+    font-weight: 500;
+    max-height: 85px;
+    text-align: center;
+    overflow:auto;
+}
+.border{
+    background-color: #ff7070;
+    height: 5px;
+    width: 80px;
+    margin: 0 auto ;
+
+}
+.card-date{
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+.card-text{
+    height:55%;
+    overflow: hidden;
+    padding: 0 15px;
+   /* backdrop-filter: blur(4px) hue-rotate(-0deg);*/
+    color:rgb(54, 54, 54)
+}
+.card-description{
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }

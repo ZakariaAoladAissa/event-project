@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  }
+  .app{
+    background-color: rgb(253, 253, 253);
+  }
+  .top-bar{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container {
+    height:35%;
+    background: linear-gradient(336deg, rgb(248,228,219)  0%, rgb(186,223,215) 50%, rgb(96,191,193) 100%);
+  }
+  
+  .logo {
+    margin-left: 45px;
+  }
+  
+  .user-info {
+    margin-right: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+  }
+  
+  .user-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .user-name {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+
+  }
+  .logout-btn{
+    width: 90px;
+    height: 28px;
+    border: none;
+    background-color: rgb(224, 90, 90);
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .menu-text span{
+    font-size: 58px;
+    font-weight: 500;
+    margin-left: 55px;
+  }
+  .menu-text{
+    margin-top: 55px;
+  }
+  .search-bar{
+    position: relative;
+    top:22px;
+    margin: 0 auto;
+    width:50vw;
+    height:45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px rgb(197, 197, 197);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-bar input,.search-bar input:focus{
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    outline: none;
+    height: 90%;
+    width: 100%;
+    margin-left: 25px;
+    font-size: 22px;
+  }
+  .search-bar .search-icon{
+    width:4%;
+    opacity: .6;
+    font-size: 18px;
+  }
+  .search-icon{
+    margin-right: 10px;
+  }
