@@ -1,6 +1,6 @@
 <h2>Event Management Project</h2>
+<h3>Description :</h3>
 
-Description :
 A web application for event management with user authentication, based on React.js and Laravel
 
 A user can :
