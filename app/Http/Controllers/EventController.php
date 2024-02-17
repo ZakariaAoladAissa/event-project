@@ -23,7 +23,6 @@ class EventController extends Controller
         return response()->json($events);
     }
     function store(Request $request){
-       
         try {
             if($request->hasFile('image')) {
                 $newEvent = $request->validate([
@@ -31,6 +30,7 @@ class EventController extends Controller
                     'description'=>'required',
                     'image'=>'image|mimes:jpeg,png,jpg,gif'
                 ]);
+                //$imageName is to create a unique name 
                 $imageName = Str::random(32).".".$request->image->getClientOriginalExtension();
                 $newEvent['image'] = $imageName;
                 $newEvent['user_id'] = auth()->id();
